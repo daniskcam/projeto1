@@ -1,4 +1,30 @@
+# Dependências
 node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build
+build/
+
+# Arquivos de ambiente (contêm chaves secretas — NUNCA commitar)
+.env
+.env.local
+.env*.local
+
+# Cache e build TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
 .DS_Store
 Thumbs.db
-*.log
+
+# Supabase local
+supabase/.branches
+supabase/.temp
